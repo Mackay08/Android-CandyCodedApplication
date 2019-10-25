@@ -45,7 +45,5 @@ public class InfoActivity extends AppCompatActivity {
         Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
         phoneIntent.setData(uriNumber);
         startActivity(phoneIntent);
-
-
     }
 }
